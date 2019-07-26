@@ -1,0 +1,108 @@
+﻿生成启动时间为 2019/7/18 0:09:34。
+     1>项目“D:\Code\duilib\DuiLib\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Build\Release/DuiLib.pch" /Fo".\Build\Release\\" /Fd".\Build\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\code\duilib\duilib\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Build\Release/DuiLib.pch" /Fo".\Build\Release\\" /Fd".\Build\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Control\UITreeView.cpp UIlib.cpp Utils\WinImplBase.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Utils\WndShadow.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp Control\UIActiveX.cpp Control\UIButton.cpp Control\UICheckBox.cpp Control\UICombo.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIGifAnim.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UIWebBrowser.cpp
+         UITreeView.cpp
+         UIlib.cpp
+         WinImplBase.cpp
+         UIDelegate.cpp
+         Utils.cpp
+         WndShadow.cpp
+         UIBase.cpp
+         UIContainer.cpp
+         UIControl.cpp
+     1>Core\UIControl.cpp(832): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIDlgBuilder.cpp
+         UIManager.cpp
+     1>Core\UIManager.cpp(1045): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+         UIMarkup.cpp
+         UIRender.cpp
+     1>Core\UIRender.cpp(1198): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+         UIChildLayout.cpp
+         UIHorizontalLayout.cpp
+     1>Layout\UIHorizontalLayout.cpp(313): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UITabLayout.cpp
+         UITileLayout.cpp
+         UIVerticalLayout.cpp
+     1>Layout\UIVerticalLayout.cpp(306): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIActiveX.cpp
+         UIButton.cpp
+     1>Control\UIButton.cpp(127): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         正在生成代码...
+         正在编译...
+         UICheckBox.cpp
+         UICombo.cpp
+         UIDateTime.cpp
+     1>Control\UIDateTime.cpp(297): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIEdit.cpp
+     1>Control\UIEdit.cpp(288): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIGifAnim.cpp
+     1>Control\UIGifAnim.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         UILabel.cpp
+         UIList.cpp
+     1>Control\UIList.cpp(1781): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+     1>Control\UIList.cpp(2417): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIOption.cpp
+         UIProgress.cpp
+         UIRichEdit.cpp
+         UIScrollBar.cpp
+         UISlider.cpp
+     1>Control\UISlider.cpp(212): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIText.cpp
+     1>Control\UIText.cpp(52): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIWebBrowser.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Build\Release\\" /Fd".\Build\Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Utils\stb_image.c
+         stb_image.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Build\Release\\" /Fd".\Build\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Code\duilib\DuiLib\.\Build\Release\DuiLib.dll) does not match the Linker's OutputFile property value (D:\Code\duilib\bin\DuiLib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/DuiLib.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:".\Build\Release\DuiLib.pdb" /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Lib/DuiLib.lib" /MACHINE:X86 /SAFESEH /DLL .\Build\Release\UITreeView.obj
+         .\Build\Release\StdAfx.obj
+         .\Build\Release\UIlib.obj
+         .\Build\Release\WinImplBase.obj
+         .\Build\Release\stb_image.obj
+         .\Build\Release\UIDelegate.obj
+         .\Build\Release\Utils.obj
+         .\Build\Release\WndShadow.obj
+         .\Build\Release\XUnzip.obj
+         .\Build\Release\UIBase.obj
+         .\Build\Release\UIContainer.obj
+         .\Build\Release\UIControl.obj
+         .\Build\Release\UIDlgBuilder.obj
+         .\Build\Release\UIManager.obj
+         .\Build\Release\UIMarkup.obj
+         .\Build\Release\UIRender.obj
+         .\Build\Release\UIChildLayout.obj
+         .\Build\Release\UIHorizontalLayout.obj
+         .\Build\Release\UITabLayout.obj
+         .\Build\Release\UITileLayout.obj
+         .\Build\Release\UIVerticalLayout.obj
+         .\Build\Release\UIActiveX.obj
+         .\Build\Release\UIButton.obj
+         .\Build\Release\UICheckBox.obj
+         .\Build\Release\UICombo.obj
+         .\Build\Release\UIDateTime.obj
+         .\Build\Release\UIEdit.obj
+         .\Build\Release\UIGifAnim.obj
+         .\Build\Release\UILabel.obj
+         .\Build\Release\UIList.obj
+         .\Build\Release\UIOption.obj
+         .\Build\Release\UIProgress.obj
+         .\Build\Release\UIRichEdit.obj
+         .\Build\Release\UIScrollBar.obj
+         .\Build\Release\UISlider.obj
+         .\Build\Release\UIText.obj
+         .\Build\Release\UIWebBrowser.obj
+           正在创建库 ../Lib/DuiLib.lib 和对象 ../Lib/DuiLib.exp
+         DuiLib.vcxproj -> D:\Code\duilib\DuiLib\.\Build\Release\DuiLib.dll
+     1>已完成生成项目“D:\Code\duilib\DuiLib\DuiLib.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:13.24

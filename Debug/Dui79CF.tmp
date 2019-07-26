@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+    <VerticalLayout bkcolor="#0000FFC0" bkcolor2="#FFFF8057">
+        <HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <Edit float="true" pos="117,56,0,0" width="266" height="35" bkcolor="#FFA0FFC0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Combo float="true" pos="22,55,0,0" width="84" height="35" bkcolor="#FF8FF7D9" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropboxsize="0,150" />
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="575,513">
+    <HorizontalLayout width="575" height="513" bkcolor="#FFFF0000" bkcolor2="#00FF4200" focusbordercolor="#00800000">
+        <HorizontalLayout width="575" height="40" bkcolor="#FF5A5A5A" bkcolor2="#00B4B4B4">
+            <VerticalLayout height="40" />
+            <VerticalLayout width="90" height="40">
+                <Button float="true" pos="0,0,0,0" width="30" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button float="true" pos="29,0,0,0" width="30" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button float="true" pos="57,0,0,0" width="33" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </VerticalLayout>
+        </HorizontalLayout>
+    </HorizontalLayout>
+</Window>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+    <VerticalLayout bkcolor="#0000FFC0" bkcolor2="#FFFF8057">
+        <HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout height="55">
+            <Combo float="true" pos="26,15,0,0" width="62" height="21" bkcolor="#FF92F6D8" bkcolor2="#0090F7D9" bordercolor="#0071D6B8" focusbordercolor="#008BF9DB" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;ComboBox/Combo_nor.bmp&apos;" hotimage="file=&apos;ComboBox/Combo_over.bmp&apos; " pushedimage="file=&apos;ComboBox/Combo_over.bmp&apos; " dropboxsize="0,150">
+                <ListLabelElement />
+                <ListLabelElement />
+            </Combo>
+            <Edit text="请输入路径" float="true" pos="109,11,0,0" width="266" height="35" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#00969696" disabledtextcolor="#FFA7A6AA" />
+            <Button text="加载" float="true" pos="402,13,0,0" width="51" height="28" bkcolor="#FF8EF8DA" bkcolor2="#0090F7D9" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="BtnStyle\Win7\button_nor.png" hotimage="BtnStyle\Win7\button_over.png" pushedimage="BtnStyle\Win7\button_down.png" focusedimage="BtnStyle\Win7\button_focus.png" disabledimage="BtnStyle\Win7\button_over.png" />
+        </HorizontalLayout>
+        <HorizontalLayout height="39">
+            <Label text="start:" float="true" pos="39,6,0,0" width="77" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit float="true" pos="121,3,0,0" width="192" height="29" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit float="true" pos="541,4,0,0" width="192" height="29" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label text="end:" float="true" pos="459,7,0,0" width="77" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

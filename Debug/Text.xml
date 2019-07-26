@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+    <VerticalLayout bkimage="back2.png">
+        <HorizontalLayout height="32" bkcolor="#EB7FCBDA" bkcolor2="#005A5A5A">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="800" height="72">
+            <Combo tooltip="请选择生成动态图的类型" float="true" pos="26,15,0,0" width="62" height="21" bkcolor="#FF92F6D8" bkcolor2="#0090F7D9" bordercolor="#0071D6B8" focusbordercolor="#008BF9DB" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;ComboBox/Combo_nor.bmp&apos;" hotimage="file=&apos;ComboBox/Combo_over.bmp&apos; " pushedimage="file=&apos;ComboBox/Combo_over.bmp&apos; " dropboxsize="0,150">
+                <ListLabelElement text="图片" selected="true" />
+                <ListLabelElement text="视频" />
+				<ListLabelElement text="文字" />
+            </Combo>
+            <Edit name="WBK1" text="请输入路径" float="true" pos="109,11,0,0" width="266" height="35" bkimage="Progress\progress_back.png" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#00969696" disabledtextcolor="#FFA7A6AA" readonly="true" />
+            <Button name="Load" text="加载" float="true" pos="391,15,0,0" width="54" height="22" bkcolor="#FF8EF8DA" bkcolor2="#0090F7D9" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="BtnStyle\Win7\button_nor.png" hotimage="BtnStyle\Win7\button_over.png" pushedimage="BtnStyle\Win7\button_down.png" focusedimage="BtnStyle\Win7\button_focus.png" disabledimage="BtnStyle\Win7\button_over.png" />
+            <Progress name="ProgressDemo1" text="Loading..." float="true" pos="522,20,0,0" width="174" height="21" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" foreimage="Progress/progress_fore.png" min="0" max="100" value="50" hor="true" />
+        </HorizontalLayout>
+        <HorizontalLayout width="800" height="35">
+            <Label text="START：" float="true" pos="39,6,0,0" width="77" height="25" bkimage="Menu\menu_bk.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Edit name="WBK2" float="true" pos="121,3,0,0" width="192" height="29" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit name="WBK3" float="true" pos="456,5,0,0" width="192" height="29" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="Cut" text="截取" float="true" pos="706,6,0,0" width="54" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" />
+            <Label text=" END ：" float="true" pos="364,5,0,0" width="77" height="25" bkimage="Menu\menu_bk.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout width="800" height="24">
+            <VerticalLayout width="413" />
+            <VerticalLayout />
+        </HorizontalLayout>
+        <HorizontalLayout>
+            <VerticalLayout width="400" height="131">
+                <Button name="XT" text="斜体" float="true" pos="274,49,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="YS" text="颜色" float="true" pos="167,86,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="JC" text="加粗" float="true" pos="167,49,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="ZT" text="字体" float="true" pos="59,86,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="SCSRT" text="生成SRT" float="true" pos="59,49,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="JZSRT" text="加载SRT" float="true" pos="59,12,0,0" width="58" height="29" bkcolor="#FFFF00FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="SCASS" text="生成ASS" float="true" pos="167,12,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="SLASS" text="烧录ASS" float="true" pos="274,12,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+                <Button name="YY" text="阴影" float="true" pos="274,88,0,0" width="58" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" focusedimage="button_focus.png" />
+            </VerticalLayout>
+            <VerticalLayout width="61" height="441" />
+            <VerticalLayout>
+                <Button text="修改" float="true" pos="117,385,0,0" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" pushedimage="button_down.png" focusedimage="button_focus.png" disabledimage="button_over.png" />
+                <RichEdit name="RichEdit" float="true" pos="3,2,0,0" width="277" height="364" bkcolor="#FFFFA0A0" bkcolor2="#00FFC0A0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+            <List name="ListDemo1" float="true" pos="32,148,0,0" width="339" height="236" bkcolor="#FFE9FFFF" bkcolor2="#00E9E9FF" itemtextcolor="#FF000000" itembkcolor="#FFE2DDDF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="List/list_header_bg.png">
+                <ListHeader name="domain" bkimage="List/list_header_bg.png">
+                    <ListHeaderItem text="时间" width="84" height="19" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                    <ListHeaderItem text="文字" width="161" height="20" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                </ListHeader>
+                <ListLabelElement />
+                <ListLabelElement />
+            </List>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
